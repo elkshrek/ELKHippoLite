@@ -21,22 +21,18 @@ PODS:
   - ELKChainedAlloy/UIKit (1.1.8)
   - GTMBase64 (1.0.1)
   - Masonry (1.1.0)
-  - MJExtension (3.2.2)
   - MJRefresh (3.5.0)
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
   - SDWebImage/Core (5.8.4)
-  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AFNetworking
   - ELKChainedAlloy
   - GTMBase64
   - Masonry
-  - MJExtension
   - MJRefresh
   - SDWebImage
-  - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -44,21 +40,17 @@ SPEC REPOS:
     - ELKChainedAlloy
     - GTMBase64
     - Masonry
-    - MJExtension
     - MJRefresh
     - SDWebImage
-    - SVProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   ELKChainedAlloy: eedf5f2650ef69aefcff571d03d517ef941a8de3
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 9b4c94d376b5a58a2113bb0197daee865b1c3c1c
+PODFILE CHECKSUM: 246a0539dd372902dbdba59a61be851be4d39fff
 
 COCOAPODS: 1.9.3

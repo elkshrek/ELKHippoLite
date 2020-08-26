@@ -10,8 +10,8 @@ target 'ELKCommonDemo' do
   
   pod 'Masonry'
   pod 'SDWebImage'
-  pod 'SVProgressHUD'
-  pod 'MJExtension'
+#  pod 'SVProgressHUD'
+#  pod 'MJExtension'
   pod 'MJRefresh'
 
   

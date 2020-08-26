@@ -216,7 +216,7 @@
 				ABAD2DCB2464F8D30006D288 /* ELKEasyTimer */,
 				AB7E2E202462C92700B81A64 /* ELKMacroLite */,
 				ABAD2E3E24654E5D0006D288 /* ELKMantleLite */,
-				AB7E2E242462C92700B81A64 /* ELKNetworking */,
+				AB7E2E242462C92700B81A64 /* ELKNetwork */,
 			);
 			path = ELKHippoLite;
 			sourceTree = SOURCE_ROOT;
@@ -232,13 +232,13 @@
 			path = ELKMacroLite;
 			sourceTree = "<group>";
 		};
-		AB7E2E242462C92700B81A64 /* ELKNetworking */ = {
+		AB7E2E242462C92700B81A64 /* ELKNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				AB7E2E332462C92700B81A64 /* NetStatus */,
 				AB7E2E252462C92700B81A64 /* Security */,
 			);
-			path = ELKNetworking;
+			path = ELKNetwork;
 			sourceTree = "<group>";
 		};
 		AB7E2E252462C92700B81A64 /* Security */ = {

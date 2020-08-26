@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELKHippoLite"
-  spec.version      = "2.0.0"
+  spec.version      = "2.0.1"
   spec.summary      = "ELKHippoLite"
   spec.description  = <<-DESC
                     ELKHippoLite:基础控件库
@@ -46,21 +46,18 @@ Pod::Spec.new do |spec|
       ctspec.public_header_files = 'ELKHippoLite/ELKContactManager/**/*.h'
   end
   
-  # 网络请求
-#  spec.subspec 'ELKNetworking' do |netspec|
-#      netspec.ios.frameworks = 'Foundation', 'UIKit', 'AVKit', 'SystemConfiguration', 'CoreTelephony'
-#      netspec.libraries   = 'resolv', 'c++', 'z'
+  # 网络
+  spec.subspec 'ELKNetworking' do |netspec|
+      netspec.ios.frameworks = 'Foundation', 'UIKit', 'AVKit', 'SystemConfiguration', 'CoreTelephony'
+      netspec.libraries   = 'resolv', 'c++', 'z'
   
-#      netspec.dependency 'ELKHippoLite/ELKMacroLite'
-#      netspec.dependency 'AFNetworking'
-#      netspec.dependency 'GTMBase64'
-#      netspec.dependency 'AliyunOSSiOS'
-#      netspec.dependency 'SVProgressHUD'
-#      netspec.dependency 'MJExtension'
+      netspec.dependency 'ELKHippoLite/ELKMacroLite'
+      netspec.dependency 'AFNetworking'
+      netspec.dependency 'GTMBase64'
       
-#      netspec.source_files = 'ELKHippoLite/ELKNetworking/**/*.{h,m}'
-#      netspec.public_header_files = 'ELKHippoLite/ELKNetworking/**/*.h'
-#  end
+      netspec.source_files = 'ELKHippoLite/ELKNetworking/**/*.{h,m}'
+      netspec.public_header_files = 'ELKHippoLite/ELKNetworking/**/*.h'
+  end
   
   # EasyTimer
   spec.subspec 'ELKEasyTimer' do |ctspec|
