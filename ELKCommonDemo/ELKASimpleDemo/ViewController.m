@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "ELKHippoLite.h"
-#import "ELKNetworkManager.h"
 #import <Masonry/Masonry.h>
 
 @class ELKPageItemModel;
@@ -85,10 +84,6 @@
 {
     return _dataArray ?: ({
         _dataArray = @[[ELKPageItemModel pageItemModel:@"easy timer" viewClass:@"ELKEasyTimeViewController"]];
-//        _dataArray = @[[ELKPageItemModel pageItemModel:@"easy timer" viewClass:@"ELKEasyTimeViewController"]
-//                       ,[ELKPageItemModel pageItemModel:@"textfield demo" viewClass:@"ELKTextDemoViewController"]
-//                       ,[ELKPageItemModel pageItemModel:@"DataSource demo" viewClass:@"ELKTableDataSourceVC"]
-//                       ,[ELKPageItemModel pageItemModel:@"File Upload" viewClass:@"ELKFileUploadViewController"]];
         
         _dataArray;
     });

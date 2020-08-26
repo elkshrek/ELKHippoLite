@@ -31,7 +31,7 @@ typedef NS_OPTIONS(NSUInteger, ELKRectCornerType) {
 /// 设置圆角
 /// @param styleType type
 /// @param cornerRadii 圆角
--(void)elk_maskCornerWithStyleType:(ELKRectCornerType)styleType cornerRadii:(CGFloat)cornerRadii;
+- (void)elk_maskCornerWithStyleType:(ELKRectCornerType)styleType cornerRadii:(CGFloat)cornerRadii;
  
 
 

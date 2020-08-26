@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - AliyunOSSiOS (2.10.8)
   - ELKChainedAlloy (1.1.8):
     - ELKChainedAlloy/Foundation (= 1.1.8)
     - ELKChainedAlloy/UIKit (= 1.1.8)
@@ -31,7 +30,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - AliyunOSSiOS
   - ELKChainedAlloy
   - GTMBase64
   - Masonry
@@ -43,7 +41,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - AliyunOSSiOS
     - ELKChainedAlloy
     - GTMBase64
     - Masonry
@@ -54,7 +51,6 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   ELKChainedAlloy: eedf5f2650ef69aefcff571d03d517ef941a8de3
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -63,6 +59,6 @@ SPEC CHECKSUMS:
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: f73ac5de19fb12cc6c227bbe6d0a01af20ae5861
+PODFILE CHECKSUM: 9b4c94d376b5a58a2113bb0197daee865b1c3c1c
 
 COCOAPODS: 1.9.3

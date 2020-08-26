@@ -7,21 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F9A1DA9247231670089F5F5 /* UIView+HZBorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1D9F247231670089F5F5 /* UIView+HZBorderLine.m */; };
-		0F9A1DC02472350B0089F5F5 /* UIButton+HZTouchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DB12472350A0089F5F5 /* UIButton+HZTouchControl.m */; };
-		0F9A1DC12472350B0089F5F5 /* UIButton+EBAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DB22472350A0089F5F5 /* UIButton+EBAppearance.m */; };
-		0F9A1DC22472350B0089F5F5 /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DB62472350A0089F5F5 /* UIImage+GradientColor.m */; };
-		0F9A1DC32472350B0089F5F5 /* UIImage+EBTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DB72472350A0089F5F5 /* UIImage+EBTintColor.m */; };
-		0F9A1DC42472350B0089F5F5 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DB82472350A0089F5F5 /* UIImage+Rotate.m */; };
-		0F9A1DC52472350B0089F5F5 /* UILabel+CKLAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DBB2472350A0089F5F5 /* UILabel+CKLAppearance.m */; };
-		0F9A1DC62472350B0089F5F5 /* UITextField+HZEditControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DBF2472350B0089F5F5 /* UITextField+HZEditControl.m */; };
-		0F9A1DCC247239D10089F5F5 /* UITextField+HZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1DCA247239D10089F5F5 /* UITextField+HZAppearance.m */; };
-		0F9A1E472473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1E3E2473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.m */; };
-		0F9A1E482473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1E3F2473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.m */; };
-		0F9A1E492473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1E402473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.m */; };
-		0F9A1E4A2473AD240089F5F5 /* HZColorCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1E412473AD230089F5F5 /* HZColorCollectionReusableView.m */; };
-		0F9A1E4B2473AD240089F5F5 /* TFDialogueAllSubjectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1E432473AD230089F5F5 /* TFDialogueAllSubjectLayout.m */; };
-		0F9A1E4C2473AD240089F5F5 /* HZCustomeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A1E442473AD230089F5F5 /* HZCustomeFlowLayout.m */; };
 		AB1245C62488F1DC003C9D43 /* ELKEasyTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1245C52488F1DC003C9D43 /* ELKEasyTimeViewController.m */; };
 		AB23E82C2466400F00AB47C8 /* UIImage+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23E82B2466400F00AB47C8 /* UIImage+ELKAdditions.m */; };
 		AB23E83024664CF300AB47C8 /* UIButton+ELKMantleLite.m in Sources */ = {isa = PBXBuildFile; fileRef = AB23E82F24664CF300AB47C8 /* UIButton+ELKMantleLite.m */; };
@@ -31,10 +16,7 @@
 		AB7E2E372462C92700B81A64 /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E2E272462C92700B81A64 /* NSString+SHA1.m */; };
 		AB7E2E382462C92700B81A64 /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E2E2C2462C92700B81A64 /* Encryption.m */; };
 		AB7E2E392462C92700B81A64 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E2E2D2462C92700B81A64 /* NSString+MD5.m */; };
-		AB7E2E3A2462C92700B81A64 /* ELKNetworkManager+Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E2E2F2462C92700B81A64 /* ELKNetworkManager+Upload.m */; };
-		AB7E2E3B2462C92700B81A64 /* ELKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E2E322462C92700B81A64 /* ELKNetworkManager.m */; };
 		AB7E2E3C2462C92700B81A64 /* ELKNetStatusMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E2E352462C92700B81A64 /* ELKNetStatusMaster.m */; };
-		ABAB920B248510B400744556 /* ELKAliOSSInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB920A248510B400744556 /* ELKAliOSSInfoModel.m */; };
 		ABAD2DCE2464F8D30006D288 /* ELKEasyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2DCD2464F8D30006D288 /* ELKEasyTimer.m */; };
 		ABAD2E10246534370006D288 /* UIImage+ELKHippoResource.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2E0F246534370006D288 /* UIImage+ELKHippoResource.m */; };
 		ABAD2E5E24654E5E0006D288 /* UITextField+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2E4124654E5D0006D288 /* UITextField+ELKPlaceHolder.m */; };
@@ -50,8 +32,6 @@
 		ABAD2E6D246551A60006D288 /* NSDate+ELKMantleFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2E6C246551A60006D288 /* NSDate+ELKMantleFormat.m */; };
 		ABAD2E7424655D970006D288 /* ELKMantleReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2E7024655D970006D288 /* ELKMantleReachability.m */; };
 		ABAD2E7524655D970006D288 /* ELKMantleSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2E7324655D970006D288 /* ELKMantleSwizzling.m */; };
-		ABE13150249B46FF0032EA47 /* ELKFileUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE1314F249B46FF0032EA47 /* ELKFileUploadViewController.m */; };
-		ABE13154249B4A370032EA47 /* ELKUploadFileInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE13153249B4A370032EA47 /* ELKUploadFileInfoModel.m */; };
 		ABE987E624626D63006071ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE987E524626D63006071ED /* AppDelegate.m */; };
 		ABE987EC24626D63006071ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE987EB24626D63006071ED /* ViewController.m */; };
 		ABE987F124626D63006071ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE987F024626D63006071ED /* Assets.xcassets */; };
@@ -60,21 +40,7 @@
 		ABE9880C24626D64006071ED /* ELKCommonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE9880B24626D64006071ED /* ELKCommonDemoUITests.m */; };
 		ABE9881E24626DE2006071ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE9881A24626DE2006071ED /* Main.storyboard */; };
 		ABE9881F24626DE2006071ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE9881C24626DE2006071ED /* LaunchScreen.storyboard */; };
-		B97E1CF4248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = B97E1CF3248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.m */; };
-		B97E1CF7248E414F0072C538 /* ELKCollectionDataSourceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B97E1CF6248E414F0072C538 /* ELKCollectionDataSourceVC.m */; };
-		B97E1CFA248E416B0072C538 /* ELKCollectionDataSourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B97E1CF9248E416B0072C538 /* ELKCollectionDataSourceCell.m */; };
-		B99C9BAD2484FA0E004EEC7C /* ELKAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BA42484FA0E004EEC7C /* ELKAccountTool.m */; };
-		B99C9BAE2484FA0E004EEC7C /* ELKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BA52484FA0E004EEC7C /* ELKAccount.m */; };
-		B99C9BB02484FA0E004EEC7C /* ELKRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BAA2484FA0E004EEC7C /* ELKRequestTool.m */; };
-		B99C9BCD2488ECAB004EEC7C /* ELKBaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BCC2488ECAB004EEC7C /* ELKBaseDataSource.m */; };
-		B99C9BD12488EF18004EEC7C /* ELKTableDataSourceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BD02488EF18004EEC7C /* ELKTableDataSourceVC.m */; };
-		B99C9BD42488F420004EEC7C /* ELKBaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BD32488F420004EEC7C /* ELKBaseTableViewCellModel.m */; };
-		B99C9BD72488F6D9004EEC7C /* UITableViewCell+ELKDataSourceConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BD62488F6D9004EEC7C /* UITableViewCell+ELKDataSourceConfigure.m */; };
-		B99C9BDA2488F736004EEC7C /* ELKTableDataSourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9BD92488F736004EEC7C /* ELKTableDataSourceCell.m */; };
 		CE75034ECE3DFE78312F9AF6 /* libPods-ELKCommonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F7038CB1EA4931BCAAC626 /* libPods-ELKCommonDemo.a */; };
-		F459695A24873F4E00CBF579 /* ELKInputTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = F459695924873F4E00CBF579 /* ELKInputTextFieldView.m */; };
-		F459695E24874C8100CBF579 /* ELKTextDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F459695D24874C8100CBF579 /* ELKTextDemoViewController.m */; };
-		F485150E2487A1E900AAEA87 /* UITextField+ELKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F485150C2487A1E900AAEA87 /* UITextField+ELKEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,38 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F9A1D96247231670089F5F5 /* UIView+HZBorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HZBorderLine.h"; sourceTree = "<group>"; };
-		0F9A1D9F247231670089F5F5 /* UIView+HZBorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HZBorderLine.m"; sourceTree = "<group>"; };
-		0F9A1DAD2472321A0089F5F5 /* ELKMantleShortCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKMantleShortCut.h; sourceTree = "<group>"; };
-		0F9A1DAF2472350A0089F5F5 /* UIButton+HZTouchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HZTouchControl.h"; sourceTree = "<group>"; };
-		0F9A1DB02472350A0089F5F5 /* UIButton+EBAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EBAppearance.h"; sourceTree = "<group>"; };
-		0F9A1DB12472350A0089F5F5 /* UIButton+HZTouchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HZTouchControl.m"; sourceTree = "<group>"; };
-		0F9A1DB22472350A0089F5F5 /* UIButton+EBAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EBAppearance.m"; sourceTree = "<group>"; };
-		0F9A1DB42472350A0089F5F5 /* UIImage+EBTintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EBTintColor.h"; sourceTree = "<group>"; };
-		0F9A1DB52472350A0089F5F5 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
-		0F9A1DB62472350A0089F5F5 /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
-		0F9A1DB72472350A0089F5F5 /* UIImage+EBTintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EBTintColor.m"; sourceTree = "<group>"; };
-		0F9A1DB82472350A0089F5F5 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
-		0F9A1DB92472350A0089F5F5 /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
-		0F9A1DBB2472350A0089F5F5 /* UILabel+CKLAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CKLAppearance.m"; sourceTree = "<group>"; };
-		0F9A1DBC2472350A0089F5F5 /* UILabel+CKLAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CKLAppearance.h"; sourceTree = "<group>"; };
-		0F9A1DBE2472350A0089F5F5 /* UITextField+HZEditControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HZEditControl.h"; sourceTree = "<group>"; };
-		0F9A1DBF2472350B0089F5F5 /* UITextField+HZEditControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HZEditControl.m"; sourceTree = "<group>"; };
-		0F9A1DCA247239D10089F5F5 /* UITextField+HZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HZAppearance.m"; sourceTree = "<group>"; };
-		0F9A1DCB247239D10089F5F5 /* UITextField+HZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HZAppearance.h"; sourceTree = "<group>"; };
-		0F9A1E3B2473AD230089F5F5 /* HZColorCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZColorCollectionReusableView.h; sourceTree = "<group>"; };
-		0F9A1E3C2473AD230089F5F5 /* HZCustomeFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCustomeFlowLayout.h; sourceTree = "<group>"; };
-		0F9A1E3D2473AD230089F5F5 /* TFDialogueAllSubjectLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDialogueAllSubjectLayout.h; sourceTree = "<group>"; };
-		0F9A1E3E2473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCollectionViewLeftAlignLayout.m; sourceTree = "<group>"; };
-		0F9A1E3F2473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCollectionViewSectionColorLeftAlignLayout.m; sourceTree = "<group>"; };
-		0F9A1E402473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCollectionViewSuspensionHeaderLayout.m; sourceTree = "<group>"; };
-		0F9A1E412473AD230089F5F5 /* HZColorCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZColorCollectionReusableView.m; sourceTree = "<group>"; };
-		0F9A1E422473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCollectionViewLeftAlignLayout.h; sourceTree = "<group>"; };
-		0F9A1E432473AD230089F5F5 /* TFDialogueAllSubjectLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDialogueAllSubjectLayout.m; sourceTree = "<group>"; };
-		0F9A1E442473AD230089F5F5 /* HZCustomeFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCustomeFlowLayout.m; sourceTree = "<group>"; };
-		0F9A1E452473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCollectionViewSuspensionHeaderLayout.h; sourceTree = "<group>"; };
-		0F9A1E462473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCollectionViewSectionColorLeftAlignLayout.h; sourceTree = "<group>"; };
-		0F9A1E4D2473B0650089F5F5 /* ELKFlowLayoutHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKFlowLayoutHeader.h; sourceTree = "<group>"; };
 		162A12FF7B4320258E121BB7 /* Pods-ELKCommonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKCommonDemo.debug.xcconfig"; path = "Target Support Files/Pods-ELKCommonDemo/Pods-ELKCommonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9976D39EC8D0774D6DABB71A /* Pods-ELKCommonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKCommonDemo.release.xcconfig"; path = "Target Support Files/Pods-ELKCommonDemo/Pods-ELKCommonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A6F7038CB1EA4931BCAAC626 /* libPods-ELKCommonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELKCommonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,14 +85,8 @@
 		AB7E2E2B2462C92700B81A64 /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
 		AB7E2E2C2462C92700B81A64 /* Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encryption.m; sourceTree = "<group>"; };
 		AB7E2E2D2462C92700B81A64 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		AB7E2E2F2462C92700B81A64 /* ELKNetworkManager+Upload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELKNetworkManager+Upload.m"; sourceTree = "<group>"; };
-		AB7E2E302462C92700B81A64 /* ELKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKNetworkManager.h; sourceTree = "<group>"; };
-		AB7E2E312462C92700B81A64 /* ELKNetworkManager+Upload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELKNetworkManager+Upload.h"; sourceTree = "<group>"; };
-		AB7E2E322462C92700B81A64 /* ELKNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKNetworkManager.m; sourceTree = "<group>"; };
 		AB7E2E342462C92700B81A64 /* ELKNetStatusMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKNetStatusMaster.h; sourceTree = "<group>"; };
 		AB7E2E352462C92700B81A64 /* ELKNetStatusMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKNetStatusMaster.m; sourceTree = "<group>"; };
-		ABAB9209248510B400744556 /* ELKAliOSSInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKAliOSSInfoModel.h; sourceTree = "<group>"; };
-		ABAB920A248510B400744556 /* ELKAliOSSInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKAliOSSInfoModel.m; sourceTree = "<group>"; };
 		ABAD2DCC2464F8D30006D288 /* ELKEasyTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKEasyTimer.h; sourceTree = "<group>"; };
 		ABAD2DCD2464F8D30006D288 /* ELKEasyTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKEasyTimer.m; sourceTree = "<group>"; };
 		ABAD2DCF2464F9580006D288 /* ELKHippoLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKHippoLite.h; sourceTree = "<group>"; };
@@ -192,10 +120,6 @@
 		ABAD2E7124655D970006D288 /* ELKMantleSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKMantleSwizzling.h; sourceTree = "<group>"; };
 		ABAD2E7224655D970006D288 /* ELKMantleReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKMantleReachability.h; sourceTree = "<group>"; };
 		ABAD2E7324655D970006D288 /* ELKMantleSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKMantleSwizzling.m; sourceTree = "<group>"; };
-		ABE1314E249B46FF0032EA47 /* ELKFileUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKFileUploadViewController.h; sourceTree = "<group>"; };
-		ABE1314F249B46FF0032EA47 /* ELKFileUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKFileUploadViewController.m; sourceTree = "<group>"; };
-		ABE13152249B4A370032EA47 /* ELKUploadFileInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKUploadFileInfoModel.h; sourceTree = "<group>"; };
-		ABE13153249B4A370032EA47 /* ELKUploadFileInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKUploadFileInfoModel.m; sourceTree = "<group>"; };
 		ABE987E124626D63006071ED /* ELKCommonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELKCommonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE987E424626D63006071ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABE987E524626D63006071ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -211,34 +135,6 @@
 		ABE9880B24626D64006071ED /* ELKCommonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKCommonDemoUITests.m; sourceTree = "<group>"; };
 		ABE9880D24626D64006071ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE9881B24626DE2006071ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ELKCommonDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		B97E1CF2248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+ELKDataSourceConfigure.h"; sourceTree = "<group>"; };
-		B97E1CF3248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+ELKDataSourceConfigure.m"; sourceTree = "<group>"; };
-		B97E1CF5248E414F0072C538 /* ELKCollectionDataSourceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKCollectionDataSourceVC.h; sourceTree = "<group>"; };
-		B97E1CF6248E414F0072C538 /* ELKCollectionDataSourceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKCollectionDataSourceVC.m; sourceTree = "<group>"; };
-		B97E1CF8248E416B0072C538 /* ELKCollectionDataSourceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKCollectionDataSourceCell.h; sourceTree = "<group>"; };
-		B97E1CF9248E416B0072C538 /* ELKCollectionDataSourceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKCollectionDataSourceCell.m; sourceTree = "<group>"; };
-		B99C9BA42484FA0E004EEC7C /* ELKAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKAccountTool.m; sourceTree = "<group>"; };
-		B99C9BA52484FA0E004EEC7C /* ELKAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKAccount.m; sourceTree = "<group>"; };
-		B99C9BA62484FA0E004EEC7C /* ELKAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKAccountTool.h; sourceTree = "<group>"; };
-		B99C9BA72484FA0E004EEC7C /* ELKAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKAccount.h; sourceTree = "<group>"; };
-		B99C9BAA2484FA0E004EEC7C /* ELKRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKRequestTool.m; sourceTree = "<group>"; };
-		B99C9BAC2484FA0E004EEC7C /* ELKRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKRequestTool.h; sourceTree = "<group>"; };
-		B99C9BCB2488ECAB004EEC7C /* ELKBaseDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKBaseDataSource.h; sourceTree = "<group>"; };
-		B99C9BCC2488ECAB004EEC7C /* ELKBaseDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKBaseDataSource.m; sourceTree = "<group>"; };
-		B99C9BCF2488EF18004EEC7C /* ELKTableDataSourceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKTableDataSourceVC.h; sourceTree = "<group>"; };
-		B99C9BD02488EF18004EEC7C /* ELKTableDataSourceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKTableDataSourceVC.m; sourceTree = "<group>"; };
-		B99C9BD22488F420004EEC7C /* ELKBaseTableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKBaseTableViewCellModel.h; sourceTree = "<group>"; };
-		B99C9BD32488F420004EEC7C /* ELKBaseTableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKBaseTableViewCellModel.m; sourceTree = "<group>"; };
-		B99C9BD52488F6D8004EEC7C /* UITableViewCell+ELKDataSourceConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ELKDataSourceConfigure.h"; sourceTree = "<group>"; };
-		B99C9BD62488F6D9004EEC7C /* UITableViewCell+ELKDataSourceConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ELKDataSourceConfigure.m"; sourceTree = "<group>"; };
-		B99C9BD82488F736004EEC7C /* ELKTableDataSourceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKTableDataSourceCell.h; sourceTree = "<group>"; };
-		B99C9BD92488F736004EEC7C /* ELKTableDataSourceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKTableDataSourceCell.m; sourceTree = "<group>"; };
-		F459695824873F4E00CBF579 /* ELKInputTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKInputTextFieldView.h; sourceTree = "<group>"; };
-		F459695924873F4E00CBF579 /* ELKInputTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKInputTextFieldView.m; sourceTree = "<group>"; };
-		F459695C24874C8100CBF579 /* ELKTextDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKTextDemoViewController.h; sourceTree = "<group>"; };
-		F459695D24874C8100CBF579 /* ELKTextDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKTextDemoViewController.m; sourceTree = "<group>"; };
-		F485150C2487A1E900AAEA87 /* UITextField+ELKEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ELKEvent.m"; sourceTree = "<group>"; };
-		F485150D2487A1E900AAEA87 /* UITextField+ELKEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ELKEvent.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,83 +163,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F9A1D94247231670089F5F5 /* ELKMantleShortCut */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1DAD2472321A0089F5F5 /* ELKMantleShortCut.h */,
-				0F9A1DAE2472350A0089F5F5 /* UIButton */,
-				0F9A1DB32472350A0089F5F5 /* UIImageVIew */,
-				0F9A1DBA2472350A0089F5F5 /* UILabel */,
-				0F9A1DBD2472350A0089F5F5 /* UITextfield */,
-				AB7412922472796700C9CC7C /* UIView */,
-			);
-			path = ELKMantleShortCut;
-			sourceTree = "<group>";
-		};
-		0F9A1DAE2472350A0089F5F5 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1DB02472350A0089F5F5 /* UIButton+EBAppearance.h */,
-				0F9A1DB22472350A0089F5F5 /* UIButton+EBAppearance.m */,
-				0F9A1DAF2472350A0089F5F5 /* UIButton+HZTouchControl.h */,
-				0F9A1DB12472350A0089F5F5 /* UIButton+HZTouchControl.m */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
-		0F9A1DB32472350A0089F5F5 /* UIImageVIew */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1DB42472350A0089F5F5 /* UIImage+EBTintColor.h */,
-				0F9A1DB72472350A0089F5F5 /* UIImage+EBTintColor.m */,
-				0F9A1DB92472350A0089F5F5 /* UIImage+GradientColor.h */,
-				0F9A1DB62472350A0089F5F5 /* UIImage+GradientColor.m */,
-				0F9A1DB52472350A0089F5F5 /* UIImage+Rotate.h */,
-				0F9A1DB82472350A0089F5F5 /* UIImage+Rotate.m */,
-			);
-			path = UIImageVIew;
-			sourceTree = "<group>";
-		};
-		0F9A1DBA2472350A0089F5F5 /* UILabel */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1DBC2472350A0089F5F5 /* UILabel+CKLAppearance.h */,
-				0F9A1DBB2472350A0089F5F5 /* UILabel+CKLAppearance.m */,
-			);
-			path = UILabel;
-			sourceTree = "<group>";
-		};
-		0F9A1DBD2472350A0089F5F5 /* UITextfield */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1DCB247239D10089F5F5 /* UITextField+HZAppearance.h */,
-				0F9A1DCA247239D10089F5F5 /* UITextField+HZAppearance.m */,
-				0F9A1DBE2472350A0089F5F5 /* UITextField+HZEditControl.h */,
-				0F9A1DBF2472350B0089F5F5 /* UITextField+HZEditControl.m */,
-			);
-			path = UITextfield;
-			sourceTree = "<group>";
-		};
-		0F9A1E3A2473AD230089F5F5 /* ELKCustomFlowLayout */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1E4D2473B0650089F5F5 /* ELKFlowLayoutHeader.h */,
-				0F9A1E422473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.h */,
-				0F9A1E3E2473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.m */,
-				0F9A1E462473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.h */,
-				0F9A1E3F2473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.m */,
-				0F9A1E452473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.h */,
-				0F9A1E402473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.m */,
-				0F9A1E3B2473AD230089F5F5 /* HZColorCollectionReusableView.h */,
-				0F9A1E412473AD230089F5F5 /* HZColorCollectionReusableView.m */,
-				0F9A1E3C2473AD230089F5F5 /* HZCustomeFlowLayout.h */,
-				0F9A1E442473AD230089F5F5 /* HZCustomeFlowLayout.m */,
-				0F9A1E3D2473AD230089F5F5 /* TFDialogueAllSubjectLayout.h */,
-				0F9A1E432473AD230089F5F5 /* TFDialogueAllSubjectLayout.m */,
-			);
-			path = ELKCustomFlowLayout;
-			sourceTree = "<group>";
-		};
 		576CB2532AB6A63C9C9F9F8E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,15 +170,6 @@
 				9976D39EC8D0774D6DABB71A /* Pods-ELKCommonDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		AB1245C22488F1A2003C9D43 /* TextDemo */ = {
-			isa = PBXGroup;
-			children = (
-				F459695C24874C8100CBF579 /* ELKTextDemoViewController.h */,
-				F459695D24874C8100CBF579 /* ELKTextDemoViewController.m */,
-			);
-			path = TextDemo;
 			sourceTree = "<group>";
 		};
 		AB1245C32488F1C1003C9D43 /* EasyTimeDemo */ = {
@@ -389,15 +199,6 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-		AB7412922472796700C9CC7C /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				0F9A1D96247231670089F5F5 /* UIView+HZBorderLine.h */,
-				0F9A1D9F247231670089F5F5 /* UIView+HZBorderLine.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
 		AB754F682463B0110024D8E5 /* ELKContactManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,13 +213,9 @@
 			children = (
 				ABAD2DCF2464F9580006D288 /* ELKHippoLite.h */,
 				AB754F682463B0110024D8E5 /* ELKContactManager */,
-				0F9A1E3A2473AD230089F5F5 /* ELKCustomFlowLayout */,
 				ABAD2DCB2464F8D30006D288 /* ELKEasyTimer */,
-				F48C907624873393007FCDF1 /* ELKInputTextField */,
 				AB7E2E202462C92700B81A64 /* ELKMacroLite */,
 				ABAD2E3E24654E5D0006D288 /* ELKMantleLite */,
-				0F9A1D94247231670089F5F5 /* ELKMantleShortCut */,
-				B99C9BCA2488EC92004EEC7C /* ELKDataSource */,
 				AB7E2E242462C92700B81A64 /* ELKNetworking */,
 			);
 			path = ELKHippoLite;
@@ -438,9 +235,7 @@
 		AB7E2E242462C92700B81A64 /* ELKNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				B99C9BA32484FA0E004EEC7C /* Account */,
 				AB7E2E332462C92700B81A64 /* NetStatus */,
-				AB7E2E2E2462C92700B81A64 /* Network */,
 				AB7E2E252462C92700B81A64 /* Security */,
 			);
 			path = ELKNetworking;
@@ -459,17 +254,6 @@
 				AB7E2E272462C92700B81A64 /* NSString+SHA1.m */,
 			);
 			path = Security;
-			sourceTree = "<group>";
-		};
-		AB7E2E2E2462C92700B81A64 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				B99C9BAC2484FA0E004EEC7C /* ELKRequestTool.h */,
-				B99C9BAA2484FA0E004EEC7C /* ELKRequestTool.m */,
-				ABE13151249B49F80032EA47 /* Model */,
-				ABE13155249B71FF0032EA47 /* Network */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		AB7E2E332462C92700B81A64 /* NetStatus */ = {
@@ -593,37 +377,6 @@
 			path = ELKTool;
 			sourceTree = "<group>";
 		};
-		ABE1314D249B46EC0032EA47 /* FileUpload */ = {
-			isa = PBXGroup;
-			children = (
-				ABE1314E249B46FF0032EA47 /* ELKFileUploadViewController.h */,
-				ABE1314F249B46FF0032EA47 /* ELKFileUploadViewController.m */,
-			);
-			path = FileUpload;
-			sourceTree = "<group>";
-		};
-		ABE13151249B49F80032EA47 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				ABAB9209248510B400744556 /* ELKAliOSSInfoModel.h */,
-				ABAB920A248510B400744556 /* ELKAliOSSInfoModel.m */,
-				ABE13152249B4A370032EA47 /* ELKUploadFileInfoModel.h */,
-				ABE13153249B4A370032EA47 /* ELKUploadFileInfoModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		ABE13155249B71FF0032EA47 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				AB7E2E302462C92700B81A64 /* ELKNetworkManager.h */,
-				AB7E2E322462C92700B81A64 /* ELKNetworkManager.m */,
-				AB7E2E312462C92700B81A64 /* ELKNetworkManager+Upload.h */,
-				AB7E2E2F2462C92700B81A64 /* ELKNetworkManager+Upload.m */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		ABE987D824626D63006071ED = {
 			isa = PBXGroup;
 			children = (
@@ -689,47 +442,6 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		B99C9BA32484FA0E004EEC7C /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				B99C9BA72484FA0E004EEC7C /* ELKAccount.h */,
-				B99C9BA52484FA0E004EEC7C /* ELKAccount.m */,
-				B99C9BA62484FA0E004EEC7C /* ELKAccountTool.h */,
-				B99C9BA42484FA0E004EEC7C /* ELKAccountTool.m */,
-			);
-			path = Account;
-			sourceTree = "<group>";
-		};
-		B99C9BCA2488EC92004EEC7C /* ELKDataSource */ = {
-			isa = PBXGroup;
-			children = (
-				B99C9BCB2488ECAB004EEC7C /* ELKBaseDataSource.h */,
-				B99C9BCC2488ECAB004EEC7C /* ELKBaseDataSource.m */,
-				B99C9BD22488F420004EEC7C /* ELKBaseTableViewCellModel.h */,
-				B99C9BD32488F420004EEC7C /* ELKBaseTableViewCellModel.m */,
-				B99C9BD52488F6D8004EEC7C /* UITableViewCell+ELKDataSourceConfigure.h */,
-				B99C9BD62488F6D9004EEC7C /* UITableViewCell+ELKDataSourceConfigure.m */,
-				B97E1CF2248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.h */,
-				B97E1CF3248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.m */,
-			);
-			path = ELKDataSource;
-			sourceTree = "<group>";
-		};
-		B99C9BCE2488EEF3004EEC7C /* ELKDataSourceDemo */ = {
-			isa = PBXGroup;
-			children = (
-				B99C9BCF2488EF18004EEC7C /* ELKTableDataSourceVC.h */,
-				B99C9BD02488EF18004EEC7C /* ELKTableDataSourceVC.m */,
-				B99C9BD82488F736004EEC7C /* ELKTableDataSourceCell.h */,
-				B99C9BD92488F736004EEC7C /* ELKTableDataSourceCell.m */,
-				B97E1CF5248E414F0072C538 /* ELKCollectionDataSourceVC.h */,
-				B97E1CF6248E414F0072C538 /* ELKCollectionDataSourceVC.m */,
-				B97E1CF8248E416B0072C538 /* ELKCollectionDataSourceCell.h */,
-				B97E1CF9248E416B0072C538 /* ELKCollectionDataSourceCell.m */,
-			);
-			path = ELKDataSourceDemo;
-			sourceTree = "<group>";
-		};
 		DF93764F110FEA66B51F4ACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -743,23 +455,9 @@
 			children = (
 				ABE987EA24626D63006071ED /* ViewController.h */,
 				ABE987EB24626D63006071ED /* ViewController.m */,
-				ABE1314D249B46EC0032EA47 /* FileUpload */,
 				AB1245C32488F1C1003C9D43 /* EasyTimeDemo */,
-				AB1245C22488F1A2003C9D43 /* TextDemo */,
-				B99C9BCE2488EEF3004EEC7C /* ELKDataSourceDemo */,
 			);
 			path = ELKASimpleDemo;
-			sourceTree = "<group>";
-		};
-		F48C907624873393007FCDF1 /* ELKInputTextField */ = {
-			isa = PBXGroup;
-			children = (
-				F459695824873F4E00CBF579 /* ELKInputTextFieldView.h */,
-				F459695924873F4E00CBF579 /* ELKInputTextFieldView.m */,
-				F485150D2487A1E900AAEA87 /* UITextField+ELKEvent.h */,
-				F485150C2487A1E900AAEA87 /* UITextField+ELKEvent.m */,
-			);
-			path = ELKInputTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -940,65 +638,31 @@
 				ABAD2E6024654E5E0006D288 /* UIView+ELKAdditions.m in Sources */,
 				ABE987EC24626D63006071ED /* ViewController.m in Sources */,
 				AB1245C62488F1DC003C9D43 /* ELKEasyTimeViewController.m in Sources */,
-				0F9A1DC52472350B0089F5F5 /* UILabel+CKLAppearance.m in Sources */,
-				B99C9BD42488F420004EEC7C /* ELKBaseTableViewCellModel.m in Sources */,
 				ABAD2E6524654E5E0006D288 /* NSString+ELKFast.m in Sources */,
-				0F9A1DC02472350B0089F5F5 /* UIButton+HZTouchControl.m in Sources */,
-				B97E1CF4248E40190072C538 /* UICollectionViewCell+ELKDataSourceConfigure.m in Sources */,
-				ABAB920B248510B400744556 /* ELKAliOSSInfoModel.m in Sources */,
 				AB23E83024664CF300AB47C8 /* UIButton+ELKMantleLite.m in Sources */,
 				ABAD2E6624654E5E0006D288 /* UIViewController+ELKImagePicker.m in Sources */,
 				ABAD2E7424655D970006D288 /* ELKMantleReachability.m in Sources */,
 				ABAD2E6324654E5E0006D288 /* NSString+ELKRuby.m in Sources */,
-				0F9A1DCC247239D10089F5F5 /* UITextField+HZAppearance.m in Sources */,
 				AB754F6B2463B0110024D8E5 /* ELKContactManager.m in Sources */,
-				0F9A1DC42472350B0089F5F5 /* UIImage+Rotate.m in Sources */,
-				AB7E2E3B2462C92700B81A64 /* ELKNetworkManager.m in Sources */,
 				AB23E82C2466400F00AB47C8 /* UIImage+ELKAdditions.m in Sources */,
 				AB7E2E372462C92700B81A64 /* NSString+SHA1.m in Sources */,
-				0F9A1E4B2473AD240089F5F5 /* TFDialogueAllSubjectLayout.m in Sources */,
-				B99C9BDA2488F736004EEC7C /* ELKTableDataSourceCell.m in Sources */,
-				B99C9BCD2488ECAB004EEC7C /* ELKBaseDataSource.m in Sources */,
 				ABAD2DCE2464F8D30006D288 /* ELKEasyTimer.m in Sources */,
 				ABAD2E6424654E5E0006D288 /* NSString+ELKAdditions.m in Sources */,
-				0F9A1DC62472350B0089F5F5 /* UITextField+HZEditControl.m in Sources */,
 				ABAD2E10246534370006D288 /* UIImage+ELKHippoResource.m in Sources */,
-				0F9A1DC12472350B0089F5F5 /* UIButton+EBAppearance.m in Sources */,
-				B99C9BD72488F6D9004EEC7C /* UITableViewCell+ELKDataSourceConfigure.m in Sources */,
 				ABAD2E5E24654E5E0006D288 /* UITextField+ELKPlaceHolder.m in Sources */,
-				0F9A1E4C2473AD240089F5F5 /* HZCustomeFlowLayout.m in Sources */,
-				B97E1CF7248E414F0072C538 /* ELKCollectionDataSourceVC.m in Sources */,
 				ABAD2E6D246551A60006D288 /* NSDate+ELKMantleFormat.m in Sources */,
 				AB6CB5D924738B0F009302A8 /* UIView+ELKPlaceHolderView.m in Sources */,
 				ABE987E624626D63006071ED /* AppDelegate.m in Sources */,
-				B99C9BAE2484FA0E004EEC7C /* ELKAccount.m in Sources */,
 				ABAD2E7524655D970006D288 /* ELKMantleSwizzling.m in Sources */,
 				AB7E2E362462C92700B81A64 /* NSData+AES256.m in Sources */,
-				0F9A1DC22472350B0089F5F5 /* UIImage+GradientColor.m in Sources */,
-				F459695E24874C8100CBF579 /* ELKTextDemoViewController.m in Sources */,
-				0F9A1DA9247231670089F5F5 /* UIView+HZBorderLine.m in Sources */,
-				0F9A1E472473AD230089F5F5 /* HZCollectionViewLeftAlignLayout.m in Sources */,
-				0F9A1DC32472350B0089F5F5 /* UIImage+EBTintColor.m in Sources */,
-				0F9A1E482473AD230089F5F5 /* HZCollectionViewSectionColorLeftAlignLayout.m in Sources */,
 				AB7E2E382462C92700B81A64 /* Encryption.m in Sources */,
-				0F9A1E492473AD230089F5F5 /* HZCollectionViewSuspensionHeaderLayout.m in Sources */,
 				ABAD2E5F24654E5E0006D288 /* UITextView+ELKPlaceHolder.m in Sources */,
-				F485150E2487A1E900AAEA87 /* UITextField+ELKEvent.m in Sources */,
-				B99C9BD12488EF18004EEC7C /* ELKTableDataSourceVC.m in Sources */,
 				AB7E2E3C2462C92700B81A64 /* ELKNetStatusMaster.m in Sources */,
 				ABE987F724626D63006071ED /* main.m in Sources */,
-				0F9A1E4A2473AD240089F5F5 /* HZColorCollectionReusableView.m in Sources */,
-				B97E1CFA248E416B0072C538 /* ELKCollectionDataSourceCell.m in Sources */,
-				B99C9BAD2484FA0E004EEC7C /* ELKAccountTool.m in Sources */,
 				ABAD2E6224654E5E0006D288 /* NSString+ELKTimeFormet.m in Sources */,
-				F459695A24873F4E00CBF579 /* ELKInputTextFieldView.m in Sources */,
 				ABAD2E6124654E5E0006D288 /* NSData+ELKMantleBase64.m in Sources */,
 				ABAD2E6724654E5E0006D288 /* UIViewController+ELKAlertController.m in Sources */,
-				AB7E2E3A2462C92700B81A64 /* ELKNetworkManager+Upload.m in Sources */,
-				B99C9BB02484FA0E004EEC7C /* ELKRequestTool.m in Sources */,
-				ABE13150249B46FF0032EA47 /* ELKFileUploadViewController.m in Sources */,
 				AB7E2E392462C92700B81A64 /* NSString+MD5.m in Sources */,
-				ABE13154249B4A370032EA47 /* ELKUploadFileInfoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

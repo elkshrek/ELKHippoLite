@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELKHippoLite"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.0"
   spec.summary      = "ELKHippoLite"
   spec.description  = <<-DESC
                     ELKHippoLite:基础控件库
@@ -38,17 +38,6 @@ Pod::Spec.new do |spec|
       mtspec.public_header_files = 'ELKHippoLite/ELKMantleLite/**/*.h'
   end
   
-  # 基础控件捷径
-  spec.subspec 'ELKMantleShortCut' do |shtspec|
-      shtspec.ios.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration'
-      shtspec.libraries   = 'c++', 'z'
-      
-      shtspec.dependency 'Masonry'
-      
-      shtspec.source_files = 'ELKHippoLite/ELKMantleShortCut/**/*.{h,m}'
-      shtspec.public_header_files = 'ELKHippoLite/ELKMantleShortCut/**/*.h'
-  end
-  
   # 通讯录管理
   spec.subspec 'ELKContactManager' do |ctspec|
       ctspec.ios.frameworks = 'Foundation', 'UIKit', 'Contacts'
@@ -80,29 +69,6 @@ Pod::Spec.new do |spec|
       ctspec.source_files = 'ELKHippoLite/ELKEasyTimer/**/*.{h,m}'
       ctspec.public_header_files = 'ELKHippoLite/ELKEasyTimer/**/*.h'
   end
-  
-  # tableView数据源
-   spec.subspec 'ELKDataSource' do |dtsspec|
-       dtsspec.ios.frameworks = 'Foundation', 'UIKit'
-       dtsspec.dependency 'MJRefresh'
-       dtsspec.source_files = 'ELKHippoLite/ELKDataSource/**/*.{h,m}'
-       dtsspec.public_header_files = 'ELKHippoLite/ELKDataSource/**/*.h'
-   end
-  # 输入框
-   spec.subspec 'ELKInputTextField' do |ipttextspec|
-       ipttextspec.ios.frameworks = 'Foundation', 'UIKit'
-       ipttextspec.dependency 'Masonry'
-       ipttextspec.dependency 'ELKHippoLite/ELKMantleShortCut'
-       ipttextspec.source_files = 'ELKHippoLite/ELKInputTextField/**/*.{h,m}'
-       ipttextspec.public_header_files = 'ELKHippoLite/ELKInputTextField/**/*.h'
-   end
-   
-   # ELKCustomFlowLayout
-   spec.subspec 'ELKCustomFlowLayout' do |flayoutspec|
-       flayoutspec.ios.frameworks = 'Foundation', 'UIKit'
-       flayoutspec.source_files = 'ELKHippoLite/ELKCustomFlowLayout/**/*.{h,m}'
-       flayoutspec.public_header_files = 'ELKHippoLite/ELKCustomFlowLayout/**/*.h'
-   end
    
    
 end

@@ -120,12 +120,12 @@
 
 #pragma mark - 避免循环引用
 /// 避免循环引用
-#ifndef e_weakify
-    #define e_weakify(var) __weak typeof(var) ELKWeak_##var = var;
+#ifndef elkweakify
+    #define elkweakify(var) __weak typeof(var) ELKWeak_##var = var;
 #endif
 
-#ifndef e_strongify
-#define e_strongify(var) \
+#ifndef elkstrongify
+#define elkstrongify(var) \
     _Pragma("clang diagnostic push") \
     _Pragma("clang diagnostic ignored \"-Wshadow\"") \
     __strong typeof(var) var = ELKWeak_##var; \

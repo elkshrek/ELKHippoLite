@@ -7,7 +7,6 @@ target 'ELKCommonDemo' do
 
   pod 'AFNetworking'
   pod 'GTMBase64'
-  pod 'AliyunOSSiOS'
   
   pod 'Masonry'
   pod 'SDWebImage'

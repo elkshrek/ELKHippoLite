@@ -16,29 +16,12 @@
 /// 基础分类|工具
 #import "ELKMantleLite.h"
 
-/// 网络请求
-#import "ELKNetworkManager.h"
 
 /// 通讯录管理
 #import "ELKContactManager.h"
 
 /// EasyTimer
 #import "ELKEasyTimer.h"
-
-/// 基础控件捷径
-#import "ELKMantleShortCut.h"
-
-///自定义flowLayout
-#import "ELKFlowLayoutHeader.h"
-
-
-///TableView DataSource
-#import "ELKBaseDataSource.h"
-
-
-///输入框
-#import "ELKInputTextFieldView.h"
-
 
 
 
